@@ -11,7 +11,7 @@ def daftar():
     print ("\t [2] Facebook")
     print ("\t [3] Instagram")
 
-    choice = int(input("\n\t Input : "))
+    choice = int(input("\n\t Input ▶ "))
 
     if choice == 1:
         os.system("clear")

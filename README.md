@@ -9,7 +9,7 @@
 <ul>
 <li><code>apt update && apt upgrade -y</code></li>
 <li><code>apt install python3 -y</code></li>
-<li><code>apt inatall git</code></li>
+<li><code>apt install git</code></li>
 <li><code>git clone https://github.com/fyc3c/Downloader.git</code></li>
 <li><code>cd Downloader</code></li>
 <li><code>pip3 install -r requirements.txt</code></li>

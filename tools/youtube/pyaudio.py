@@ -2,13 +2,13 @@ import os
 from pytube import YouTube
 
 def mainAudio():
-    yt = YouTube(str(input("Masukan Url : ")))
+    yt = YouTube(str(input("Masukan Url ▶ ")))
 
     video = yt.streams.filter(only_audio = True).first()
 
     print("Enter the destination (leave blank for current directory)")
 
-    destination = str(input(">> ")) or '.'
+    destination = str(input("▶ ")) or '.'
 
     out_file = video.download(output_path = destination)
 

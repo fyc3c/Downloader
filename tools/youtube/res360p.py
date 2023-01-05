@@ -10,7 +10,7 @@ def mainYt():
 
     by()
 
-    link = input("Input Link or command ;) ▶ ")
+    link = input("\tInput Link or command ;) ▶ ")
 
     if link == "exit":
         sys.exit("See You~")
